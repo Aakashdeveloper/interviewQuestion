@@ -895,3 +895,1357 @@ How a SQL query is optimized?
 How SQLite is different from Mongodb?
 
 
+give a json aaray of onkevt return all object that have key
+value that matches  a condition
+1. build an executable that excetur this list and return all object whose 
+birthdate contains 1990
+2. if necessary extend method to 
+return all objects who meets additional criterta favorite color = blue
+const data = [{
+    name:'Anne',
+    birthdate:'01/01/1990',
+    favcolor:'blue'
+}
+]
+
+css
+what is height of element have content 10px border 1px padding 5px and margin 10px
+
+javascript
+write code which handle this senario
+1> sum(1,2,3,.....n)
+
+2>sum(1)(2)(3)......(n)
+
+react 
+make react component
+call api with async and await
+jsonsplaceholder.typicode.com/users
+
+react native
+> how to implment custome animation for user interface transition react native
+> to handle third party with react native
+> react-native how can we ensure react native app is aceesibiliy to disable perosn
+> react-native how to configure to access local db like SQL lite for offline data
+> react-native major the perforamce of app
+> react-native add feature like accesing camre
+> react native approch navigation
+
+
+python 
+
+
+angular reactive form
+design angular folder
+with field
+1> appname
+2> app description
+3> Redirect uri
+4> Gender and it have male and female
+
+and register button only enable when all value added
+
+sudoku grid validation suggest best algo with step
+determine if a 9*9 sudoku board is valid.
+Only filled cell need to be validated according to following rules:
+1.Each row must contain the digit 1-9 without repetition
+2.Each column must contain the digit 1-9 without repetition
+3.Eaxh of the nine 3*3 sub-boxes of the grid must contain the
+digits 1-9 without repetition
+
+note
+sudoku board could be valid but is not necessarily solvable
+> only filled cell need to be validated according to the 
+mention rule
+
+suggest best algo with step
+given an m * n matrix board wher each cell is a batteship 'X' or empty '.'
+return the numbe of batteship on board
+
+1>batteship can only be placed horizontally or vertically on board
+2>in other word they can be made of the shape 1* k (1 row and k columns)
+or k *1(k rows and 1 column) where k can be of any size
+3> at least one horizontal or vertical cell separateds bewteen two batteship
+(ie there are no adjuxt battleship)
+
+
+golang 
+get a integer as input and write goroutine, channel
+to find sum of cubes
+
+exmple if input is 3
+then ouput is 36
+
+python
+dict
+stocks={
+    "apple":252.12,
+    "microsoft":198.11,
+    "intuit":672.08,
+    "databrick":112.78,
+    "yahoo":8.96,
+    "blackberry":1.2,
+}
+
+find the top 3 company and return there name and value
+
+
+python output
+def calc(x,y,/, ope='add'):
+ if ope == 'add':
+  return x+y
+ elif ope == 'sub':
+ return x-y
+ elif ope == 'mul':
+  return x*y
+  elif ope == 'divide':
+  return x/y
+else:
+    raise ValueError('invalid operation')
+
+result = calc(x=7,y=2,ope='mul')
+
+python
+can you simple class which has class method and instance method
+
+
+javascript
+const getUser = () => {
+    return new Promise(resolve => {
+        resolve(
+            [
+                {id:1,name:'Jack'},
+                {id:2,name:'John'},
+                {id:3,name:'Mike'}
+            ]
+        )
+    })
+}
+
+const getUserStatuse = () => {
+    return new Promise(resolve => {
+        resolve(
+            [
+                {id:1,isActive:true},
+                {id:2,isActive:true},
+                {id:3,isActive:false}
+            ]
+        )
+    })
+}
+
+map both of them on basis of id
+
+
+javascript
+setTimeOut(() => {
+    console.log(1)
+},0)
+
+console.log(3)
+
+Promise.resolve(4).then(console.log)
+
+new Promise((resolve,reject) => {
+    console.log(5)
+    reject(6)
+}).catch(error => {
+    console.log(error)
+})
+
+typescript
+any vs unkown
+
+angular
+directive vs component
+
+
+test case jest handle userinput and make backend call
+
+const searchInput = document.querySelector('#search-input')
+
+fromEvent(searchInput, 'keyup').pipe(
+    /* Write code here*/
+).subscribe()
+
+
+ios
+
+func divideLoot(
+    people:Int,
+    fairly:Bool) -> string{
+        var output;
+        string = "we're going to split.....\n"
+        if fairly{
+            output += "Everyone get 1/\"
+
+        }
+        return output
+    }
+    print(divideLoot(people:5, fairly))
+)
+
+sql query
+what is having and where clause
+
+const arr= [
+    {name:'Alex',age:25},
+    {name:'Bob',age:30},
+    {name:'Alex',age:25},
+]
+
+groupedBy(arr,age)
+
+output
+{
+25:[
+    {name:'Alex',age:25},
+    {name:'Alex',age:25},
+],
+30:[{name:'Bob',age:30}]
+ }
+
+
+ javascript
+ const arr = [1,4,2,10,15]
+ create function to find larget element in array
+find nth larget 
+
+
+javascript
+string is palindrome code if we have remove 1 or less char
+
+example
+//"abcbda" -> true
+//"desbacbe" -> false
+//dabcba"> true
+//"asdfghj"> false
+
+javascript 
+on the basis of output understand the function and write
+
+    input = "this is a test sentence"
+    output:[t,h,i,s,i,s,a,t,e,s,t,s,e,n,t,e,n,c,e]
+
+    input = "thiis iss a teest seentennce"
+    output:[i,s,e,e,n]
+
+
+    input = "thiiis iss a teeest seentennncce"
+    output:[i,e,n]
+
+    we have 3 component compa,b,c, we need where c is actual view component I what design where compA render insider component b
+    will render 3 time im component A use children porps
+
+
+JavaScript
+write function take an array and revere the array and return new array
+
+
+React
+we have 2 category  closet and Suitcase
+closet have few item display in terms of card
+Suitcase have few item
+
+every item have move button on click of that
+if item in closet will move to Suitcase div
+and vice versa
+
+golang
+ we need to attempt the sorta list of flight based on their price
+ from high to low
+ 20,30,50,100
+ you will implement the sortByPrice function that take in a slice of
+    type flight and return the sorted list of flight
+    in order to help you see what is going you hav been provided a very quick
+    prtint flight function which you can use to print the fligh out
+
+
+
+        javascript
+const people : Person[]= [
+    {name:'abc', age:30},
+    {name:'def', age:25},
+    {name:'pqe', age:35}
+]
+
+react
+given  react component that display a list of a 
+grocery item each wit a name cost and quantity complete the following task:
+1) implement the logic for button that increaase and decrease the quantity of each item
+2) Dipaky the total cost of all items based on their quantity and const
+3) Add a input field for the user to set their budget when total cost
+exceed the budget log the amount by which the total cost exceed the busget
+
+
+css
+make a red circle red backgroudn in center of page or div
+
+given a collection of candidate numbers (candidates) 
+and a target number (target)
+wriet a function combinationSum2 to find all unique
+    combination of candiates where choosen number
+    sum to target. Each number in candiates may only be used 
+    once in the combination
+
+    input combinationSum2([10,1,2,7,6,5], 9)
+    output [[1,2,5],[1,7],[2,6]]
+
+
+var x = 0;
+for (let i =0;i<5;i++){
+    setTimeout(() => {
+        x++;
+        console.log(x)
+
+    },1000)
+}
+console.log(x)
+
+
+let obj1 = {key:"value"};
+let obj2 = obj1
+let obj3 = obj2
+
+obj1.key = 'new Value'
+obj2 = {key: "another value"}
+
+console.log(obj1.key, obj2.key, obj3.key)
+
+
+python
+function to add 2 nuber
+
+
+python 
+check palindorm
+given sting s conating just the characters '(',')','{','}','[',']' 
+
+input is valid if
+1) open barcket must be cloase by the same type of brakcet
+2) open bracket must be closed in the correct order
+3) Every close brakcet has ca cooresponding opne bracket of the same type
+
+
+
+tableA: Device_id, device_status= connect,not conncetc,device_type= samsung , motorola
+
+SQL
+tableB: device_id, snapshot_date, record_status = 'Update','Delete',"Insert"
+
+write query to find count of record for snapshot date on basis of record status 
+
+
+
+SQL
+tableB: device_id, snapshot_date, record_status = 'Update','Delete',"Insert"
+write query to delete  2 record and keep 1
+
+
+create a single todo app using reactjs
+Same data local state management
+each todo item will have description , due date,
+status, completed/cancelled date, 
+handle form validation for required field 
+order the todo item based on due date in increasing order
+wen and item marked as completeded or cancelled move them to
+bottom of the page of todo List
+Apply appropitae styling to the page using css 
+
+React (typescrit) pool manager
+
+design pool manger app that allow users to 
+vote one of the two option and view the winner
+the app should be built using React + typescript
+App the 3 comoponnent pollmanager , vote and results
+
+vote component
+> display text of ecah option
+> procide a vote burron fro each option
+> disable vote button for each option whne the winner is declared
+
+Result component
+> display the result text based on the 
+> if no vote cast show empty
+> if same number of vote show tie 
+> if one has extr then sow leaser is leading by vote diff
+
+view winner
+> if no vote cast button disabled
+> clicking winner button 
+display resukt text "it is a tie" if same number of vote
+if one has extr then sow leaser is leading by vote diff
+    disable the view winner button 
+    disable votr button for each option
+
+poll manager
+>>display poll Question
+> manage state of the poll incduing vote and winner status
+> pass the relevent data and function to the vote and result component
+
+
+
+in vote component
+interface VoteProps{
+        options: PollOption[];
+        onVote:(optionId: number) =>void;
+        viewwinner: boolea
+    }
+
+export interface PollOption{
+        id:number
+        text:string;
+        votes:number
+    }
+
+
+export interface Poll{
+        question:string
+       options:PollOption
+    }
+
+
+
+
+python
+given two nodes on atree find the first ancestor they have in
+common Nodes have pointers to  their parent and their childern
+
+
+python
+we have a game in which consecuitve duplicates pieces of the same type
+cancel each other  out and remaining pieces slide in until no more pieces can be removed
+
+Give a board resprestn by string return the final state of the board after playing the game
+
+input = "abbba"
+output:"" ("abbba" => "aa" => "")
+
+input = "ab"
+output = "ab"
+
+golang
+package main
+
+import {
+    "log"
+    "net/http"
+}
+
+implement 
+//get /rules (list all rules)
+//post (/rules) (insert a single rule)
+
+type FirewallRue struct{
+    VMID uint64 `json:"vm_id"`
+    Direaction string `json:"direaction"`
+    Source string `json:"Source"`
+    Destination string `json:"Destination"`
+    Protcol string `json:"Protcol"`
+    Port int `json:"Port"`
+}
+
+func main(){
+    database := make(map[unint64]* FirewallRue)
+    database[1] = &FirewallRule{VMID:1}
+
+    r: http.NewServeMux()
+
+    r.HandleFunc("GET"){
+
+    }
+}
+
+s:= &http.Server{
+    Addr: ":3000",
+    Handler: r
+}
+
+
+function fn(){...}
+    // functional component
+    function form(){
+        // call fn whrn form unmount
+    }
+
+
+    output
+
+    const olObj = {
+        contant:{
+            email:"old_email"
+        }
+    }
+
+    const newObj = {
+        ...oldObj
+    }
+
+    console.log(oldObj.contact.email)
+    console.log(newObj.contact.email)
+
+
+    output
+    javascriot
+    how do you promidify th delay function ?
+        it should print 
+
+    const delay = () => setTimeOut(() => {
+        console.log('timeout')
+    })
+
+    async function main(){
+        console.log('start')
+
+        await delay;
+
+        console.log('finish')
+    }
+
+    main()
+
+    it should print start,timeout, finish and make sure it run asynchronously
+
+
+    jacascript
+    what is missing
+    what do you need to define name and age when intasniting the person class?
+
+        class Person{
+            name = "",
+            age = 0
+        }
+
+
+        const John = new Person('a',10)
+
+
+given this array of users can you implement the getActiveUserWithCat return active use with cat
+
+
+input=[
+    {name:"a",isActive:false,hasTrue:true},
+    {name:"b",isActive:true,hasTrue:true},
+    {name:"c",isActive:true,hasTrue:false},
+    {name:"d",isActive:true,hasTrue:true}
+]
+
+golang
+there are 2 golang routine one is producer
+other is consumer once it recive it will send acknolwdgement and then 
+    producer will send new mesaage
+    in case of 10 sec delay in acknolwdgement it will end bot goroutine
+
+
+output of javascript code
+
+const makeMap = () => {
+    const parks = new Map()
+    parkse.set("uinversla",{name:"USF",age:30});
+    parks.set("disney",{name:"magic",age:40})
+    parks.set("uinversla",{name:"IOA",age:50})
+
+    console.log(JSON.stringify(parks))
+}
+
+
+
+function sumArray(array:number[]){
+    let sum = 0;
+    for(let i = 1 ; i<array.length;i++){
+        sum +=array[i]
+    }
+return sum
+}
+
+
+javascript
+implement a function to find the sum of number without any loop
+    arr = [1,2,3,4,5]
+
+
+    javascript
+    "A"-1
+    2+"-2"+"2"
+    "Hello"-"World"+78
+    
+React creates simple component 
+counter for increase and decearese and dipslay ouput
+
+there is a sitting length N made only od letter 'a'
+whenever there are two identical adjust letter like 'aa' 
+yjey can be transformed into single letter that is the next 
+letter of the alpjabet.
+like 'aa' transfomeed to 'b' and 'ee' will transformed to 'f'
+and 'zz' cannot be further transfomred
+
+what is thw alpjabet larget string that can be obtained from the intial
+string?
+
+
+function soluiton (N)
+
+    example
+    N = 11 function should retirn 'dba';
+        'aaaaaaaaaaa' => 'bbbbba' => 'ccba' => 'dba'
+
+
+
+
+
+const sumOFNums = numbeersArr.reduce((acc,num) => {
+    return acc+num
+})
+
+console.log(sumOFNums) //15
+
+Question implement a polyFill name "myreduce: that replicate the same behavioyr as "reduce"
+
+Array.prototype.myreduce = function(cb,initialVal){
+    const array = this
+}
+
+
+const numberArr = [1,2,3,4,5]
+const sumOFNums = numbeersArr.myreduce((acc,num) => {
+    return acc+num
+})
+
+console.log(sumOFNums) //15
+
+
+
+
+ 
+implemnation of stack operation like push pop empty, peek, and swap use javascript and html
+with the given template
+
+push > insert an element to the top of stack
+pop > remove the top most element
+empty > retyr true if the stack is empty ,false otherwise
+peek> returns the value of the topmost item
+swap> the two topmost element of the stack can are swapped
+
+
+stack can hold 5 value at max
+textbox should accept any type of value
+
+<button type="submit" id="pushbutton">Push</button>
+<button type="submit" id="popbutton">Push</button>
+<button type="submit" id="emptybutton">Push</button>
+<button type="submit" id="peekbutton">Push</button>
+<button type="submit" id="swapbutton">Push</button>
+
+do not add on click
+
+
+    after adding value add in the table
+<table>
+    <tr><td class="stack-item" id="5" data-testid="5"></td></tr>
+    <tr><td class="stack-item" id="4" data-testid="4"></td></tr>
+    <tr><td class="stack-item" id="3" data-testid="3"></td></tr>
+    <tr><td class="stack-item" id="2" data-testid="2"></td></tr>
+    <tr><td class="stack-item" id="1" data-testid="1"></td></tr>
+</table>
+
+golang
+i have varibale its a string type store message size is %d
+var msg = "Size:%d MB"
+in println pass data like 30 mb and format response
+
+golang
+i have map that cotains string string like username pranit
+i want to check map have username key exist
+
+golang
+i want to create method either accept integer or float method name is "Add"
+if i pass integer it return type should integer
+if i float integer it return type should float
+
+team has created rest end point and consume the rest end point call api
+
+golang 
+we have array of 10 mobile numbar in api
+but we got more than 300 number in array we ned to process
+but downstram accept only 10 and they alos applied rate limiting of calling 5 time
+
+we have 6 to 7 lambda function making http call to fetch the lambda
+All the api we are calling need to pass token 
+for diff env ,
+we have diff diff value for token generation
+we creeated diff config file now everything working fine for qa env we need to change config
+and config file shipped with lambda how to manage env with lambda
+
+
+react
+
+ui button if we click on button it should giev call to backend api and retrerve the data
+frm the backend and display on ui
+
+fins the second larget or smallest number in the array
+
+
+write python function
+
+    example1
+    input: digits = "23" 
+    output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
+    example2
+    input: digits = "" 
+    output: []
+
+    example2
+    input: digits = "2" 
+    output: ["a","b","c"]
+
+    return all combination of charcter like mobile key pad
+    where
+    1 have nothing
+    2 have abc
+    3 have def
+    4 have ghi
+    and so on
+    and 0 have nothing
+
+
+
+
+
+
+update object 2 with all filed of object 2
+
+const obj1: any = {
+    field1:"test",
+    field2:"tes1",
+}
+    
+
+const obj2: any = {
+    id:"1a"
+}
+
+const park = {
+    id:2,
+    name: "a",
+    loc:{
+        city:"a",
+        state:"b"
+    }
+}
+
+const {name,state} = park
+console.log(name)
+console.log(state)
+
+
+export class ExampleCass{
+    public async queryAll(reqs: ExampleRequest[]):Promise<boolean>{
+        let results: boolean[] = []
+        const promise = reqs.map(async(req:ExampleRequest) =>  Database.query(request));
+        try{
+            results = await Promise.all(promises)
+        }catch(err){
+            logger.warn(error)
+        }
+        return OtherService.sendResult(results)
+    }
+}
+
+
+export class ExampleCass{
+    private constantProperty: string;
+    public constructor(constProp: string){
+        this.constantProperty = constProp
+    }
+}
+
+
+class PersonClas{
+    public firstName:string;
+    public lastName:string;
+
+    public get fullName(){
+        return this.firstName + this.lastName
+    }
+}
+
+class person : PersonClas = {
+    firstName :"a",
+    lastName:"b"
+
+}
+
+logger.info(person.fullName)
+
+
+
+api.data.gov.sg/v1/environment/air/temperature
+
+display 
+device id
+name 
+
+in react after calling the api
+
+
+javascript
+const obj = {a:1, b:{c:2}};
+
+Object.freeze(obj)
+{a: 1, b: {…}}
+obj.a = 2
+2
+obj.b.c = 3
+3
+console.log(obj)
+
+javascript 
+create sum function that can take any paramater and it can be any number
+sum(1,2,4)(8,9)(7,11)()
+and this can be any number of argument
+
+
+javascript
+we have arra of object of student data
+of same clss but different section
+return all with just section a
+
+
+golang 
+codr to find hight comman factor of any number
+
+javascript
+
+if(!A){
+    console.log("A")
+}else if(!B){
+    console.log("B")
+}else{
+    console.log("error")
+}
+
+input = {
+    error="hi"
+}
+
+
+python
+given an array of intergs nums sorted in non-decreasing order
+find the starting and ending position of a given target value
+
+if target is not found in the array return [-1,-1]
+
+example
+input = [5,7,7,8,8,10]
+target = 8
+output = 3,4
+
+
+React 
+Recreate the traffic light using css and html
+make it so ecah "light" is clickable
+when clicked it should it should set the circle to the correct color
+the other two into the "off state" color
+
+
+php
+What are constructors and destructors in PHP?
+Explain the concepts of visibility (public, protected, and private) in PHP.
+How can you secure a PHP application against XSS (Cross-Site Scripting)?
+How do you create and retrieve session variables?
+Explain autoloading in PHP. How does the spl_autoload_register() function work?
+Diff between put vs patch
+How does PHP handle caching, and what caching techniques can be used?
+
+Coding>  Find Duplicate Elements in an Array
+> Sort an Array Without Using Built-in Sort Functions
+
+
+Larvel
+> What is the purpose of phpunit.xml in Laravel?
+> What is the Event and Listener system in Laravel, and how is it used?
+> How does authentication work in Laravel?
+> What is Auth::attempt() in Laravel, and how is it used?
+> What is the difference between can() and gate() for authorization in Laravel?
+> What is Laravel Sanctum, and how does it handle API token authentication?
+>> How we can setup event broadcasting in Larvel
+
+sql
+
+write a query the fetch the 2nd 
+highest salaery from each dept
+MySql
+> Create a query in MySql for student and marks table  to find top five student on basis of marks
+where both table have releation ship of rollNo
+( if done above)
+> Please save above output in view
+> Write a SQL command to update data through a view and handle any potential issues with view updates.
+>> Provide the SQL command for updating data and discuss any limitations or requirements.
+>> What is a materialized view, and how does it differ from a regular view?
+
+
+React
+> create 2 component 
+one parent component
+second child component
+share data between parent and child
+
+
+golang
+for the following code can you write a program for the client side?
+
+
+package main
+
+
+golang in 5 producer producing 5 number one by one and consumer
+is responsible for consume number
+> it should work in producer 1 producer will produce and consumer will consume
+then next producer will produce 1 number and consumer will consume
+    and so on
+    so all producer 1 by 1 produce number 1
+    
+golang
+to implement stack interfcae which folowing method:
+pop(), push(), peek(), isEmpty(), max()
+
+
+golang
+you were hired as a consultant for best blog<sup>TM<sup>
+company need help with findihing the implentation of RestApi 
+
+first 
+we need to implement empty methods in 'commentRepository' and 'Post Repository'.
+the structs resprest an in memory storag
+for out entitess you will find stubd of the methods in the repository/respositiry.go file
+
+
+react
+create tic tac toe game
+creae a stateful custome hook exeuted bases on a data change
+
+python
+we have a catalog of song title(and their length) that we play a local radio
+We asked to play two of the song in row they must add up exactly seven min long
+
+exampe:
+song_times_1 = [
+    ('abc',"8:05"),
+    ('def',"2:27"),
+    ('ghi',"3:41"),
+    ('jkl',"2:49"),
+    ('mno',"3:19"),
+    ('pqr',"3:18"),
+    ('st1',"10:26"),
+    ('lkh',"4:55"),
+]
+output ['ghi','mno']
+
+
+python 
+find the longest chaining of song  and make sure no song should not repeate
+return the starting till longest chain with matching word, starting song is provided as input
+song_times_1 = [
+    'd b r',
+    'r o d',
+    't m t t r',
+    'dreams',
+    'blues hand me down',
+    'forever young',
+    'American dreams',
+    'all my love',
+    'contaloop',
+    'Take it all',
+    'love is forever',
+    'Young American',
+    'Dreamship',
+    'Every breath you take'
+
+
+]
+
+output = 
+song1_1 =  'Every breath you take'
+
+output
+chaining song = [ 'Every breath you take','Take it all','all my love','love is forever','forever young',
+'Young American','American dreams','dreams',]
+    
+
+python
+write function that simulate communication between 2 microservice
+    one generate user id and other use thate id for search
+
+javascript
+async function async1(){
+    console.log("1")
+
+}
+
+
+
+ios filter movies
+need to build a small part of ios app print out log items
+the swift function logdumpGetUnique has a small set of itemstored in a string.
+    Each log item is separeted by a semicolon
+    your goal is to return a new tring with the following requirnemnt:
+
+
+1> Remove log items that are duplicate based on username
+2> Form each log item remove id= Num propoerty and value.
+
+for item that are duplicate based on the username keep
+the first one that appers on the list and remove the subsequent one
+
+
+example Iput
+name = Dan B, username=db, email=db@gmail.com, id=123;
+name = hannaa, username=hsmith, email=hsm@gmail.com, id=33;
+name = Dan Brick, username=db, email=db@gmail.com, id=663
+
+output
+name = Dan B, username=db, email=db@gmail.com;
+name = hannaa, username=hsmith, email=hsm@gmail.com;
+
+
+ios 
+need to build a small part of ios app that need to implment a simple 
+key-value type of a cache in swift you need to implement a cache class that functions
+add,get and size
+
+the add function take 2 param  a key and value and adds the pair to the local cache
+when an item is added to the cache this function should return the string "added" and if the item alreday existed
+    in the cache theis function should
+        return the string "overeritten
+
+        the get function attemp to returive an item from the cache
+        based on the key parameter oassed in if the item exist in the cache
+        retur the value ,otherwise return string "miss"
+
+        the size function will return numner of item in the cache]
+
+
+
+            <script>
+               function mul(a,b){
+                   return a*b;
+               }
+               function div(a,b){
+                   return a/b;
+               }
+               document.writeln(mul(5,7).toString());
+               document.writeln("<br>");
+               document.writeln(typeof mul(5,7).toString());
+               document.writeln("<br>");
+               document.writeln(div.toString());
+               document.writeln("<br>");
+               document.writeln(typeof div.toString());
+
+            </script>
+            <button onClick='setName()'>SetName </button>
+            <p id="name"></p>
+
+
+            var num=10;
+            function fun(){
+                num=100;
+                return;
+                function num(){}
+            }
+            fun();
+            console.log(num);
+
+
+
+
+            golang
+using jin framwork write api which are reading and saving book information
+2 api
+
+for num = "1432219" and k = 3
+output = "1219"
+
+react with typescript wit prime react
+
+we have api
+https://jsonplaceholder.typicode.com/users
+imtergate into react app and return tabel format showing
+id, name , username, email and address
+and address should be like
+street,suite,city and zipcode
+
+and use Prime React for table
+
+react with typescript wit prime react
+implement user auth- keep username as user and password as pass
+provide login and logout button
+
+> desigb a multi-page application with appropriate routing
+> creagt at least two main route
+> a public route accessible to all user (eg homepage)
+> A private route accessible only to authenticated users
+creata route gaird that prevete unauthorixed access ro private route
+ensure that only authenticated user can access certain part of the application
+
+
+python
+avergae-waiting-time
+
+there is a restaurnat with s single chef you are give an array customer,where customers[i]= [arrival,time]
+arrival >is the arival time to ith customer. the arrival time are sorted in non-descreaing order
+time > is the neede to prepare the order of the ith customer
+when a customer arrives, he give the chef his order and the chef start prepaing it once he is idle
+the customer waits till chef preparing his order the chedf does not prepare the  food for more than one customer
+at a a time
+the chef prpeare food fr cutsomer in the order they were given in the input
+
+retun the avergae waiting time of all customers solution within 10^-5 f0r the actual ansewer considered
+
+inpur = [[1,2],[2,5],[4,3]]
+output = 5.00000
+
+
+javascript
+
+i have array from -infinity to +inifinty find second largest number in array
+
+
+how to call api in reactjs
+
+
+golang
+
+write code we recicev string
+1> ({})
+2> (({{}}))
+3> [{}{}{}]
+
+validate formate barakcet should be sequnetically close
+if correct return true else false
+
+    package main
+
+    import (
+        "fmt"
+    )
+
+    func main(){
+        var slice = [5]int{1,2,3,4,5}
+        var newSlice []int
+        newSlice = slice[0:2]
+        newSlice = append(newSlice,6)
+        fmt.Println(newSlice)
+        fmt.Println(slice)
+    }
+    
+
+    golang write code
+    given 1->2->3->4->5
+    and n = 2
+
+    output = 1->2->3->5
+
+    input is list n i number
+    we need to remove the node from the end of the list
+
+
+
+python
+let asume on one of the s3 loaction we have file (partfile)
+we have 2 file part1 and part2  to convert into text and make one and copy in different locatin
+
+
+python
+Given a string of sorted integers sepearted by space indentify wheters a target is present in array or not 
+Input
+
+javascript
+can filter array based on function
+
+    javascript
+
+    implement json.stringify function mannuly without inbuit
+
+
+python List Comprehension
+num_list = [1,2,3,4,5,6]
+return new list with even number
+
+
+python
+
+what is missing  the claas
+
+class Person:
+ def __init__(name)
+        name="a"
+def print_name():
+ print(name)
+
+
+javascript  
+cosnole.log(x)
+let x = 40
+
+javascript
+const a = {val:45}
+const b = a 
+b.val = 90
+console.log(b)
+console.log(a)
+
+javascript
+function abc(){
+    let x =20;
+}
+
+const newFun =abc()
+console.log(newFun(45))
+we can only modify function abc() and output shoudbe 65
+
+
+
+write sql query to find all products that have
+never been order from the products and order_items tables
+
+
+html css
+draw on circle and inside that make one more
+
+python
+check weather string is palindrome
+
+
+datascience
+
+
+python
+python create 2 sets of values for the analysis
+set1=[3,-5,-.5,2,7]
+set2=[2.5,0,2,8,10]
+using these 2 set of values set1 is predicted value
+and set2 is actual value
+find root mean square without any libraray
+
+
+now in
+set1=[3,-.5,2,7]
+set2=[2.5,0,2,8]
+
+
+python
+write function one aws log need to fetch from cloud and show time 
+
+
+javascript
+we are giveb an array of object represting studenst tst score each with a name 
+and score property
+
+we need function in javascript
+1> an array if name of student who score above 80
+> an aray of object whee each object conatins the student name and a boolena indicating of they passed (score >=65)
+3> the average scroe of all student
+
+
+javascript
+write a function to return a promise the function should take 
+a number as an argument when the number is even the promise should return a number that is
+2 times the original number. when the number is odd it should throw error
+
+javascript
+
+using the function form above question write a second function that takes as an array an argument and calls second
+function for each number in the array the function should return the new number
+when an error occur the number shoud be set to -1
+
+const input = processNumber([1,2,3,4])
+console.log(result) /[-1,4,-1,8]
+
+
+nodejs
+how to approch api
+> create new user save field like name and able upload image with s3
+
+
+
+
+this.setState({counte: this.state.counter+this.props.value})
+
+
+python code
+theather booking system
+50 seats in theater 
+10 in row
+
+i want book seat in row 1 
+2, 6
+
+and thn row 2 
+seat 3,7
+
+show row in table format
+
+
+
+javascript 
+var a = [12,234,23,12,431]
+
+
+
+make counter component in reatc
+
+write a function to merge two array ad result should be sorted array without inbuili
+
+
+next js and typescript
+create a form that allow files upload
+submitting the form should upload to : `/api/upload/
+after upload something about the  file in message
+
+the endpoint should be responsble for:
+processing the uploaded input according to the algo
+returning the result
+
+finally shoe the rsult on the UI
+
+
+typescript
+import type {Equal, except} form '@total-typeScript/helpers'
+
+// ennsure routes can only have the 'component' property
+// ensure the component value of a route cannot be changes after creation
+
+const routes = {
+    "/":{
+        component:'Home'
+    },
+    "/about":{
+        component:'About',
+        search:'?foo=bar'
+    }
+}
+
+@ts-expect-error
+routes['/'].component = 'About'
+    
+
+
+
+type tests = [
+    Excpet<Equal<(typeof routes)['/']['component'],'Home'>>
+]
+
+make a screen with tiles with text and checkbox 
+for web show 6 box in row
+for tab 4 in one row and all in next
+for mobile one under anothe use flex box
+
+
+javascript
+take a paragah as an input, ans count word from it
+
+
+system design question
+design system for sending notification (system design question)
+
