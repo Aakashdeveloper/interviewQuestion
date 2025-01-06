@@ -2249,3 +2249,207 @@ take a paragah as an input, ans count word from it
 system design question
 design system for sending notification (system design question)
 
+javascript
+write function which accept an array
+    [1,2,3,1,2]
+    as input
+
+convert each array element into a key of a new object
+start with empty object
+key must be unique
+
+input > [1,2,3,1,2]
+output
+{
+    1:"Hello",
+    2:"Hello",
+    3:"Hello"
+}
+
+
+input must have same width as button
+
+
+<div class="container">
+<h1 class="heading">Please login</h1>
+<div>
+    <label class="label-for-input margin-bottom-5">Username</label>
+    <input class="input-field margin-bottom-5" type="text">
+</div>
+<div>
+    <button type="button" class="login-button">Login </button>
+</div>
+</div>
+
+.container{
+    width:50%;
+    height:30%;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+   } 
+   .heading{
+    text-align: center;
+   }
+   .label-for-input{
+    display: block;
+    font-size:30px;
+   }
+   .input-field{
+    width: 100%;
+    height: 20px;
+    border-color:black;
+   }
+   .login-button{
+    width: 100%;
+    background-color: yellow;
+    font-size:30px;
+     border-color:black;
+   }
+   .margin-bottom-5{
+    margin-bottom:15px;
+   }
+
+
+React
+design a small app in react with functional component
+it have ine input box that shold accept user age shoud accept number
+then there should be a button on click 
+> if age is greather then 18 the display message > eliglible for driving
+> if age is smaller then 18 the display message > not eliglible for driving
+
+nodejs
+create a url shrotner service similiar to bitly
+service should allow user to access long url when shorten url is accessed
+
+
+
+nodejs
+
+using aws servies help me create serverless image processing pipeline
+the pipeline should automatically resized image uploaded images
+
+and in another bucket uploade resign images
+
+
+javascript
+count character in string and list
+
+complet following code on hashing
+
+var a = 10
+var b = 2;
+var c = 'USD'
+var cardNum = 1454112114114111;
+
+const module = (modulename) =>{
+    if(modulename != 'instalment')
+    {
+        return false
+    }else{
+        return modulename
+    }
+}
+
+const password = ( ) =>{
+    const buf = Buffer.___('pass','asci')
+    const pass = ___.tostring('hex')
+}
+
+
+write  a ts function called addElement that takes
+    an array of numbers and a number
+    it should return a new array with the number appended
+to the end without modifying the original array
+
+write  a typesscript function
+caled mapArray that takes an array of number
+and a function as arg. the function should
+    aply the given function to each  element of the Array
+        and return a new array with the resukt
+
+form the below ser how would i extarct the strret,city ,state 
+and bot  hobbies in one line using both object desstrutuing
+and array desstrutuing
+
+const user = {
+    name:'a',
+    age:10,
+    addreess:{
+        street:"b",
+        city:"c",
+        state:'e'
+    },
+    hobbies:['f','g']
+}
+
+write a tyoescript function safeParseJson that take a JSON string
+    inout and safely parse it.
+    if parsig fails it should return null insted of throwring error
+
+    write a tyoescript function fetchUrlIsInParallel
+        that fetches data from all the urls in parallel using axios
+        if all request succeed return the result . if any request 
+        fails log the error and return an empty array
+
+
+how would you optimise the below .filter  and .map calls?
+
+const users = [
+    {id:1,name:"a", role:"aa"},
+    {id:2,name:"b", role:"bb"},
+    {id:3,name:"c", role:"cc"},
+    {id:4,name:"d", role:"dd"}
+]
+const adminNames = users.filter(user => user.role === "admin")
+.map(user => user.json)
+
+console.log(adminNames)
+
+how would i optimise the below function using a hshmap
+plesee return an object insted of the map
+
+
+interface Intallation {
+    carId:string,
+    partId:string
+}
+
+const intallations: Intallation[]{
+    {cardId:"a",partId:"aa"},
+    {cardId:"b",partId:"bb"},
+    {cardId:"c",partId:"cc"},
+    {cardId:"d",partId:"dd"}
+}
+
+function countParts(intallations:Intallation[]):{[key:string]:value}{
+    const partCount = new Map<string, number>()
+    intallations.forEach(intallation => {
+        if(!partCount[intallation.carId]){
+            partCount[intallation.carId] = 0
+        }
+        partCount[intallation.carId]++;
+    })
+
+    return partCount
+
+}
+
+
+javascript
+how would you write function called encode messgae that takes a string 
+    and return it with consective identical characters respresented as the count followed
+    by the the character?
+
+ex 
+input "aaaabbe" 
+output > "4aaaa2bb1e"
+
+input "zzzqqrrrr"
+output = "3zzz2qq4rrrr"
+
